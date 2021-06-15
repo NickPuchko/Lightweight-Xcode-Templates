@@ -11,7 +11,6 @@
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
-		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
@@ -157,9 +156,12 @@ window?.makeKeyAndVisible()</string>
 	<key>Definitions</key>
 	<dict>
 		<key>../Podfile</key>
-		<string>platform :ios, '13.0'
-pod 'SnapKit'
-			</string>
+		<string>workspace &apos;___VARIABLE_productName:identifier___&apos;
+platform :ios, &apos;13.0&apos;
+target &apos;___VARIABLE_productName:identifier___&apos; do
+  use_frameworks! :linkage =&gt; :static
+  pod &apos;SnapKit&apos;
+end</string>
 	</dict>
 	<key>Nodes</key>
 	<array>
