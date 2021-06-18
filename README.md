@@ -10,8 +10,8 @@ Repository contains some simple templates for creating projects and modules
 ---
 
 ### How to use template:
-* (Project) Simply open project creation window in Xcode (cmd+shift+n) and choose suitable template in Templates folder below
-* (Module/File) Simply open file creation window in Xcode (cmd+n) and choose suitable template in Templates folder below
+* (Project) Simply open project creation window in Xcode (cmd+shift+n) and choose suitable template in Templates section below
+* (Module/File) Simply open file creation window in Xcode (cmd+n) and choose suitable template in Templates section below
 
 ---
 
