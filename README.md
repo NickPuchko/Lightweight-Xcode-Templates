@@ -5,7 +5,7 @@ Repository contains some simple templates for creating projects and modules
 
 ### How to install template:
     swift install.swift
-*The second option os to place one of .xctemplate folders into directory ~/Library/Developer/Xcode/Templates/ (it's ok to create manually this folder if it didn't exist)*
+*The second option is to place one of .xctemplate folders into directory ~/Library/Developer/Xcode/Templates/ (it's ok to create manually this folder if it didn't exist)*
 
 ---
 
